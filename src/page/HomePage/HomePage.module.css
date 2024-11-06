@@ -1,0 +1,44 @@
+.heroSection {
+    background-image:
+      url("../../../public/Hero-image.jpg");
+      background-size: cover;
+      width: 1440px;
+      height: 696px;
+      margin: 0 auto;
+  }
+.container {
+    max-width: 571px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 260px 806px 260px 64px;
+    justify-content: center;
+   
+}
+.prg {
+    color: #fff;
+    margin-bottom: 24px;
+    width: 571px; 
+}
+.herroTitle {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.66667;
+    color: #f7f7f7;
+    max-width: 571px; 
+   
+}
+.button:focus {
+    background-color: #d84343;
+}
+
+@media (max-width: 768px) {
+    .container {      
+        max-width: 300px;            
+    }
+    .prg {
+        color: #fff;
+        margin-bottom: 12px;
+        width: 300px; 
+    }
+}
