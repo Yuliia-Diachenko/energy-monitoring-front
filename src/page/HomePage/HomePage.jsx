@@ -14,7 +14,7 @@ export default function HomePage() {
       <p className={css.prg}>
           You can be able to try simple analysis tools
       </p>
-      <Link to="/catalog"><Button type="button">Try Now</Button></Link>
+      <Link to="/analystics"><Button type="button">Try Now</Button></Link>
       </div>
       </section>
   );

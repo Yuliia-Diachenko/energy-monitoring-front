@@ -11,8 +11,8 @@ export default function Navigation() {
           <NavLink className={css.link} to="/">
             Home
           </NavLink>
-          <NavLink className={css.link} to="/analytics">
-            Analytics
+          <NavLink className={css.link} to="/analystics">
+            Analystics
           </NavLink>
           </div>
         

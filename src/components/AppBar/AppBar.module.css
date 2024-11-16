@@ -11,8 +11,31 @@
 .nameProject {
     color: black;
     padding-right: 6px;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .logo {
     padding-left: 6px;
+}
+
+@media (max-width: 767px) {
+  .header {
+    gap: 150px;
+    width: 767px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    gap: 250px;
+   width: 1439px;
+  }
+}
+
+@media (min-width: 1440px ){
+.header {
+  gap: 500px;
+  width: 1440px;
+}
 }

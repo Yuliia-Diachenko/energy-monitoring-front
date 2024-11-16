@@ -1,6 +1,6 @@
 .heroSection {
     background-image:
-      url("../../../public/Hero-image.jpg");
+      url("../../../public/landscape-with-windmills.jpg");
       background-size: cover;
       width: 1440px;
       height: 696px;
@@ -16,7 +16,7 @@
    
 }
 .prg {
-    color: #fff;
+    color: #232222;
     margin-bottom: 24px;
     width: 571px; 
 }
@@ -24,7 +24,7 @@
     font-weight: 600;
     font-size: 48px;
     line-height: 0.66667;
-    color: #f7f7f7;
+    color: #232222;
     max-width: 571px; 
    
 }
@@ -37,7 +37,7 @@
         max-width: 300px;            
     }
     .prg {
-        color: #fff;
+        color: #232222;
         margin-bottom: 12px;
         width: 300px; 
     }
