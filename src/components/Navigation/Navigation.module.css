@@ -1,10 +1,10 @@
 .link {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     text-decoration: none;
     line-height: 1.5;
     text-align: center;
-    color: #101828;
+    color: #070708;   
   }
   .link:active, .link:focus {
     color: #d84343;

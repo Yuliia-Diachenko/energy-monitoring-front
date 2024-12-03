@@ -6,10 +6,10 @@ import Doughnuts from '../../components/Doughtnuts/Doughtnut';
 export default function AnalysticsPage() {
 
     return (
-        <section className={css.container}>
+        <main className={css.container}>
             <Chart />
             <Doughnuts />
             <Lines />         
-        </section>
+        </main>
     )
 }

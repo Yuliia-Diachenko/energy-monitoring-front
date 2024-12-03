@@ -1,8 +1,7 @@
 .heading {
-    margin-top: 0;    
+    margin-top: 20px;    
     font-weight: 600;
-    font-size: 48px;
-    width: 571px;
+    font-size: 28px;
     color: #232222;;
   }
   @media (max-width: 768px) {

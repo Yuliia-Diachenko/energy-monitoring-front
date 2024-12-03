@@ -32,7 +32,7 @@ export default function RegistrationForm() {
     >
       <Form className={css.form} autoComplete="off">
         <label className={css.label}>
-          Username
+          User name
           <Field type="text" name="name" />
         </label>
         <label className={css.label}>
@@ -43,7 +43,7 @@ export default function RegistrationForm() {
           Password
           <Field type="password" name="password" />
         </label>
-        <button type="submit">Register</button>
+        <button type="submit" className={css.button}>Register</button>
       </Form>
     </Formik>
     </>
