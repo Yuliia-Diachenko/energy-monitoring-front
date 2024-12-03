@@ -23,20 +23,20 @@
 @media (max-width: 767px) {
   .header {
     /* gap: 150px; */
-    width: 767px;
+    width: 100%;
   }
 }
 
 @media (min-width: 768px) {
   .header {
     /* gap: 250px; */
-   width: 1439px;
+   width: 100%;
   }
 }
 
 @media (min-width: 1440px ){
 .header {
   /* gap: 500px; */
-  width: 1440px;
+  width: 100%;
 }
 }
