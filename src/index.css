@@ -10,7 +10,10 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  
+  body {
+    background-color: aliceblue;
+  }
+
   a, ul {
     list-style-type: none;
     text-decoration: none;

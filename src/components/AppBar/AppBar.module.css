@@ -1,41 +1,43 @@
 .header {
     border-bottom: 1px solid #f2f4f7;    
     height: 72px;
-    background-color: #f7f7f7;
+    background-color:  rgb(171, 195, 215);
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 0 auto;
-    justify-content: space-between;  
-
-}
-.nameProject {
-    color: black;
-    padding-right: 6px;
-    font-weight: 500;
-    font-size: 16px;
 }
 
 .logo {
     padding-left: 6px;
 }
 
+.link {
+
+  text-decoration: none;    
+  color: black;
+  padding-right: 6px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
 @media (max-width: 767px) {
   .header {
-    gap: 150px;
+    /* gap: 150px; */
     width: 767px;
   }
 }
 
 @media (min-width: 768px) {
   .header {
-    gap: 250px;
+    /* gap: 250px; */
    width: 1439px;
   }
 }
 
 @media (min-width: 1440px ){
 .header {
-  gap: 500px;
+  /* gap: 500px; */
   width: 1440px;
 }
 }

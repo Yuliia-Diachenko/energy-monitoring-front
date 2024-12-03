@@ -1,0 +1,16 @@
+.link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+    font-weight: 300;
+    color: #2a363b;   
+    
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .link.active {
+    color: #e84a5f;
+  }
